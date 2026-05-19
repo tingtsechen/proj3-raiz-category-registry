@@ -1,7 +1,7 @@
-# Unified Category x Subcategory Registry
+# Hierarchical Category x Subcategory Registry
 
-Static GitHub Pages bundle for the interactive Raiz category x subcategory
-registry.
+Static GitHub Pages bundle for the interactive Raiz hierarchical category x
+subcategory registry.
 
 ## Files
 
