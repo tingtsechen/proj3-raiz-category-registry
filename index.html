@@ -469,9 +469,9 @@
       <div class="controls">
         <input id="search" type="search" placeholder="Search category or subcategory" autocomplete="off">
         <select id="includeFilter">
-          <option value="all">All categories</option>
-          <option value="yes">include = yes</option>
-          <option value="no">include = no</option>
+          <option value="all">All clean categories</option>
+          <option value="yes">Spending categories</option>
+          <option value="no">Non-spending / audit only</option>
         </select>
         <div class="button-row">
           <button id="expandAll" type="button">Expand</button>
@@ -541,10 +541,10 @@
     <div class="shape-grid">
       <div><strong>41</strong><span>clean categories</span></div>
       <div><strong>4,986</strong><span>cat x subcat rows</span></div>
-      <div><strong>26</strong><span>included categories</span></div>
-      <div><strong>15</strong><span>excluded categories</span></div>
-      <div><strong>3,913</strong><span>included rows</span></div>
-      <div><strong>1,073</strong><span>excluded rows</span></div>
+      <div><strong>26</strong><span>spending categories</span></div>
+      <div><strong>15</strong><span>non-spending categories</span></div>
+      <div><strong>3,913</strong><span>spending rows</span></div>
+      <div><strong>1,073</strong><span>non-spending rows</span></div>
     </div>
   </div>
 </section>
@@ -568,7 +568,7 @@
         <div class="mini-stack"><i title="bank_cba: 27.5%" style="width:27.5%;background:#0f766e"></i><i title="_unmatched: 21.6%" style="width:21.6%;background:#2563eb"></i><i title="transfer_internal: 17.5%" style="width:17.5%;background:#a16207"></i><i title="bank_anz: 12.2%" style="width:12.2%;background:#7c3aed"></i><i title="bank_westpac: 8.6%" style="width:8.6%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">240,322,144 txns</span>
         <span class="badge">$141.04B</span>
@@ -796,7 +796,7 @@
         <div class="mini-stack"><i title="_unmatched: 41.6%" style="width:41.6%;background:#0f766e"></i><i title="pos_terminal: 27.5%" style="width:27.5%;background:#2563eb"></i><i title="transfer_direct_debit: 10.7%" style="width:10.7%;background:#a16207"></i><i title="cash_withdrawal: 10.2%" style="width:10.2%;background:#7c3aed"></i><i title="transfer_bpay: 4.7%" style="width:4.7%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">other</span>
         <span class="badge">102,824,153 txns</span>
         <span class="badge">$28.88B</span>
@@ -1018,7 +1018,7 @@
         <div class="mini-stack"><i title="cash_withdrawal: 62.8%" style="width:62.8%;background:#0f766e"></i><i title="cash_atm: 24.7%" style="width:24.7%;background:#2563eb"></i><i title="transfer_osko: 6.7%" style="width:6.7%;background:#a16207"></i><i title="_unmatched: 3.8%" style="width:3.8%;background:#7c3aed"></i><i title="bank_westpac: 0.3%" style="width:0.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">26,485,943 txns</span>
         <span class="badge">$16.95B</span>
@@ -1221,7 +1221,7 @@
         <div class="mini-stack"><i title="transfer_bpay: 36.3%" style="width:36.3%;background:#0f766e"></i><i title="_unmatched: 26.5%" style="width:26.5%;background:#2563eb"></i><i title="transfer_direct_debit: 8.6%" style="width:8.6%;background:#a16207"></i><i title="bank_anz: 7.9%" style="width:7.9%;background:#7c3aed"></i><i title="cash_withdrawal: 7.2%" style="width:7.2%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">27,699,869 txns</span>
         <span class="badge">$13.47B</span>
@@ -1440,7 +1440,7 @@
         <div class="mini-stack"><i title="_unmatched: 28.6%" style="width:28.6%;background:#0f766e"></i><i title="transfer_direct_debit: 18.8%" style="width:18.8%;background:#2563eb"></i><i title="transfer_bpay: 13.1%" style="width:13.1%;background:#a16207"></i><i title="transfer_osko: 8.8%" style="width:8.8%;background:#7c3aed"></i><i title="cash_withdrawal: 7.6%" style="width:7.6%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">mixed</span>
         <span class="badge">57,062,991 txns</span>
         <span class="badge">$11.82B</span>
@@ -1657,7 +1657,7 @@
         <div class="mini-stack"><i title="_unmatched: 49.4%" style="width:49.4%;background:#0f766e"></i><i title="transfer_direct_debit: 8.2%" style="width:8.2%;background:#2563eb"></i><i title="cash_withdrawal: 7.5%" style="width:7.5%;background:#a16207"></i><i title="bnpl_afterpay: 6.5%" style="width:6.5%;background:#7c3aed"></i><i title="transfer_osko: 5.9%" style="width:5.9%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">34,908,746 txns</span>
         <span class="badge">$10.76B</span>
@@ -1859,7 +1859,7 @@
         <div class="mini-stack"><i title="grocery_woolworths: 23.2%" style="width:23.2%;background:#0f766e"></i><i title="_unmatched: 19.7%" style="width:19.7%;background:#2563eb"></i><i title="grocery_coles: 18.3%" style="width:18.3%;background:#a16207"></i><i title="pos_terminal: 11.7%" style="width:11.7%;background:#7c3aed"></i><i title="grocery_aldi: 5.0%" style="width:5.0%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">194,755,664 txns</span>
         <span class="badge">$9.99B</span>
@@ -2068,7 +2068,7 @@
         <div class="mini-stack"><i title="_unmatched: 51.3%" style="width:51.3%;background:#0f766e"></i><i title="pos_terminal: 31.9%" style="width:31.9%;background:#2563eb"></i><i title="delivery_uber_eats: 3.6%" style="width:3.6%;background:#a16207"></i><i title="transfer_eftpos: 3.3%" style="width:3.3%;background:#7c3aed"></i><i title="cash_withdrawal: 3.0%" style="width:3.0%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">hedonic</span>
         <span class="badge">212,496,495 txns</span>
         <span class="badge">$9.41B</span>
@@ -2282,7 +2282,7 @@
         <div class="mini-stack"><i title="_unmatched: 46.6%" style="width:46.6%;background:#0f766e"></i><i title="pos_terminal: 33.4%" style="width:33.4%;background:#2563eb"></i><i title="rideshare_uber: 4.3%" style="width:4.3%;background:#a16207"></i><i title="transfer_direct_debit: 3.1%" style="width:3.1%;background:#7c3aed"></i><i title="cash_withdrawal: 2.5%" style="width:2.5%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">hedonic</span>
         <span class="badge">71,778,077 txns</span>
         <span class="badge">$7.46B</span>
@@ -2490,7 +2490,7 @@
         <div class="mini-stack"><i title="_unmatched: 58.8%" style="width:58.8%;background:#0f766e"></i><i title="retail_kmart: 5.6%" style="width:5.6%;background:#2563eb"></i><i title="retail_big_w: 3.1%" style="width:3.1%;background:#a16207"></i><i title="retail_harvey_norman: 2.9%" style="width:2.9%;background:#7c3aed"></i><i title="pos_terminal: 2.8%" style="width:2.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">hedonic</span>
         <span class="badge">54,670,281 txns</span>
         <span class="badge">$6.51B</span>
@@ -2700,7 +2700,7 @@
         <div class="mini-stack"><i title="_unmatched: 55.9%" style="width:55.9%;background:#0f766e"></i><i title="pos_terminal: 22.6%" style="width:22.6%;background:#2563eb"></i><i title="transfer_direct_debit: 6.0%" style="width:6.0%;background:#a16207"></i><i title="transfer_eftpos: 3.1%" style="width:3.1%;background:#7c3aed"></i><i title="cash_withdrawal: 2.5%" style="width:2.5%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">mixed</span>
         <span class="badge">43,783,049 txns</span>
         <span class="badge">$6.02B</span>
@@ -2913,7 +2913,7 @@
         <div class="mini-stack"><i title="transfer_bpay: 79.9%" style="width:79.9%;background:#0f766e"></i><i title="_unmatched: 10.7%" style="width:10.7%;background:#2563eb"></i><i title="cash_withdrawal: 5.0%" style="width:5.0%;background:#a16207"></i><i title="transfer_osko: 1.1%" style="width:1.1%;background:#7c3aed"></i><i title="transfer_direct_debit: 1.0%" style="width:1.0%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">2,475,054 txns</span>
         <span class="badge">$5.84B</span>
@@ -3067,7 +3067,7 @@
         <div class="mini-stack"><i title="_unmatched: 52.9%" style="width:52.9%;background:#0f766e"></i><i title="fuel_bp: 9.4%" style="width:9.4%;background:#2563eb"></i><i title="fuel_caltex: 5.7%" style="width:5.7%;background:#a16207"></i><i title="cash_withdrawal: 5.6%" style="width:5.6%;background:#7c3aed"></i><i title="pos_terminal: 4.1%" style="width:4.1%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">47,906,433 txns</span>
         <span class="badge">$4.57B</span>
@@ -3266,7 +3266,7 @@
         <div class="mini-stack"><i title="_unmatched: 59.4%" style="width:59.4%;background:#0f766e"></i><i title="pos_terminal: 10.0%" style="width:10.0%;background:#2563eb"></i><i title="gambling_sportsbet: 7.0%" style="width:7.0%;background:#a16207"></i><i title="gambling_ladbrokes: 2.0%" style="width:2.0%;background:#7c3aed"></i><i title="transfer_direct_debit: 1.9%" style="width:1.9%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">hedonic</span>
         <span class="badge">67,411,942 txns</span>
         <span class="badge">$4.56B</span>
@@ -3484,7 +3484,7 @@
         <div class="mini-stack"><i title="transfer_bpay: 27.8%" style="width:27.8%;background:#0f766e"></i><i title="bank_cba: 17.7%" style="width:17.7%;background:#2563eb"></i><i title="_unmatched: 17.1%" style="width:17.1%;background:#a16207"></i><i title="transfer_internal: 11.7%" style="width:11.7%;background:#7c3aed"></i><i title="cash_withdrawal: 11.2%" style="width:11.2%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">5,816,121 txns</span>
         <span class="badge">$3.91B</span>
@@ -3645,7 +3645,7 @@
         <div class="mini-stack"><i title="insurance_general: 27.0%" style="width:27.0%;background:#0f766e"></i><i title="_unmatched: 26.7%" style="width:26.7%;background:#2563eb"></i><i title="insurance_health: 16.5%" style="width:16.5%;background:#a16207"></i><i title="transfer_direct_debit: 11.4%" style="width:11.4%;background:#7c3aed"></i><i title="transfer_bpay: 8.9%" style="width:8.9%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">19,830,935 txns</span>
         <span class="badge">$3.37B</span>
@@ -3843,7 +3843,7 @@
         <div class="mini-stack"><i title="_unmatched: 44.4%" style="width:44.4%;background:#0f766e"></i><i title="retail_bunnings: 25.7%" style="width:25.7%;background:#2563eb"></i><i title="pos_terminal: 4.9%" style="width:4.9%;background:#a16207"></i><i title="cash_withdrawal: 4.2%" style="width:4.2%;background:#7c3aed"></i><i title="transfer_direct_debit: 4.1%" style="width:4.1%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">18,122,370 txns</span>
         <span class="badge">$2.95B</span>
@@ -4036,7 +4036,7 @@
         <div class="mini-stack"><i title="_unmatched: 33.1%" style="width:33.1%;background:#0f766e"></i><i title="bank_cba: 29.2%" style="width:29.2%;background:#2563eb"></i><i title="transfer_internal: 18.8%" style="width:18.8%;background:#a16207"></i><i title="cash_withdrawal: 7.5%" style="width:7.5%;background:#7c3aed"></i><i title="transfer_osko: 2.5%" style="width:2.5%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">2,445,119 txns</span>
         <span class="badge">$2.94B</span>
@@ -4187,7 +4187,7 @@
         <div class="mini-stack"><i title="_unmatched: 52.1%" style="width:52.1%;background:#0f766e"></i><i title="transfer_direct_debit: 17.1%" style="width:17.1%;background:#2563eb"></i><i title="pos_terminal: 9.2%" style="width:9.2%;background:#a16207"></i><i title="pharmacy_chemist_warehouse: 5.5%" style="width:5.5%;background:#7c3aed"></i><i title="insurance_health: 4.7%" style="width:4.7%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">27,147,319 txns</span>
         <span class="badge">$2.91B</span>
@@ -4383,7 +4383,7 @@
         <div class="mini-stack"><i title="cash_withdrawal: 18.6%" style="width:18.6%;background:#0f766e"></i><i title="telco_telstra: 17.6%" style="width:17.6%;background:#2563eb"></i><i title="transfer_bpay: 17.4%" style="width:17.4%;background:#a16207"></i><i title="_unmatched: 12.9%" style="width:12.9%;background:#7c3aed"></i><i title="telco_optus: 11.9%" style="width:11.9%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">20,538,528 txns</span>
         <span class="badge">$2.59B</span>
@@ -4581,7 +4581,7 @@
         <div class="mini-stack"><i title="transfer_direct_debit: 42.0%" style="width:42.0%;background:#0f766e"></i><i title="_unmatched: 38.4%" style="width:38.4%;background:#2563eb"></i><i title="cash_withdrawal: 5.6%" style="width:5.6%;background:#a16207"></i><i title="transfer_bpay: 4.3%" style="width:4.3%;background:#7c3aed"></i><i title="bank_cba: 2.8%" style="width:2.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">32,559,955 txns</span>
         <span class="badge">$2.31B</span>
@@ -4724,7 +4724,7 @@
         <div class="mini-stack"><i title="transfer_bpay: 35.9%" style="width:35.9%;background:#0f766e"></i><i title="_unmatched: 22.5%" style="width:22.5%;background:#2563eb"></i><i title="transfer_direct_debit: 15.1%" style="width:15.1%;background:#a16207"></i><i title="utility_agl: 6.0%" style="width:6.0%;background:#7c3aed"></i><i title="utility_energyaustralia: 3.7%" style="width:3.7%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">11,394,008 txns</span>
         <span class="badge">$2.22B</span>
@@ -4890,7 +4890,7 @@
         <div class="mini-stack"><i title="_unmatched: 60.9%" style="width:60.9%;background:#0f766e"></i><i title="cash_withdrawal: 9.4%" style="width:9.4%;background:#2563eb"></i><i title="cash_atm: 6.6%" style="width:6.6%;background:#a16207"></i><i title="transfer_direct_debit: 3.8%" style="width:3.8%;background:#7c3aed"></i><i title="transfer_osko: 3.6%" style="width:3.6%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">37,662,727 txns</span>
         <span class="badge">$1.97B</span>
@@ -5098,7 +5098,7 @@
         <div class="mini-stack"><i title="_unmatched: 65.7%" style="width:65.7%;background:#0f766e"></i><i title="cash_withdrawal: 32.1%" style="width:32.1%;background:#2563eb"></i><i title="transfer_osko: 0.8%" style="width:0.8%;background:#a16207"></i><i title="bank_ing: 0.5%" style="width:0.8%;background:#7c3aed"></i><i title="bank_anz: 0.2%" style="width:0.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">280,051 txns</span>
         <span class="badge">$1.46B</span>
@@ -5198,7 +5198,7 @@
         <div class="mini-stack"><i title="transfer_internal: 42.0%" style="width:42.0%;background:#0f766e"></i><i title="_unmatched: 30.5%" style="width:30.5%;background:#2563eb"></i><i title="cash_withdrawal: 9.8%" style="width:9.8%;background:#a16207"></i><i title="bank_cba: 5.2%" style="width:5.2%;background:#7c3aed"></i><i title="transfer_osko: 3.8%" style="width:3.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">8,834,911 txns</span>
         <span class="badge">$1.38B</span>
@@ -5379,7 +5379,7 @@
         <div class="mini-stack"><i title="_unmatched: 42.2%" style="width:42.2%;background:#0f766e"></i><i title="transfer_bpay: 17.6%" style="width:17.6%;background:#2563eb"></i><i title="transfer_paypal: 11.0%" style="width:11.0%;background:#a16207"></i><i title="transfer_direct_debit: 9.1%" style="width:9.1%;background:#7c3aed"></i><i title="cash_withdrawal: 7.1%" style="width:7.1%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">hedonic</span>
         <span class="badge">7,740,377 txns</span>
         <span class="badge">$788.9M</span>
@@ -5579,7 +5579,7 @@
         <div class="mini-stack"><i title="_unmatched: 42.7%" style="width:42.7%;background:#0f766e"></i><i title="retail_officeworks: 21.1%" style="width:21.1%;background:#2563eb"></i><i title="cash_withdrawal: 12.7%" style="width:12.7%;background:#a16207"></i><i title="transfer_direct_debit: 6.9%" style="width:6.9%;background:#7c3aed"></i><i title="bnpl_afterpay: 5.6%" style="width:5.6%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">mixed</span>
         <span class="badge">5,613,420 txns</span>
         <span class="badge">$646.5M</span>
@@ -5733,7 +5733,7 @@
         <div class="mini-stack"><i title="_unmatched: 51.8%" style="width:51.8%;background:#0f766e"></i><i title="transfer_bpay: 13.6%" style="width:13.6%;background:#2563eb"></i><i title="education_university: 11.2%" style="width:11.2%;background:#a16207"></i><i title="cash_withdrawal: 6.8%" style="width:6.8%;background:#7c3aed"></i><i title="transfer_direct_debit: 6.4%" style="width:6.4%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">3,194,124 txns</span>
         <span class="badge">$594.4M</span>
@@ -5868,7 +5868,7 @@
         <div class="mini-stack"><i title="_unmatched: 79.8%" style="width:79.8%;background:#0f766e"></i><i title="transfer_eftpos: 7.8%" style="width:7.8%;background:#2563eb"></i><i title="pos_terminal: 4.5%" style="width:4.5%;background:#a16207"></i><i title="transfer_paypal: 2.7%" style="width:2.7%;background:#7c3aed"></i><i title="transfer_direct_debit: 1.8%" style="width:1.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">mixed</span>
         <span class="badge">3,727,332 txns</span>
         <span class="badge">$424.2M</span>
@@ -5992,7 +5992,7 @@
         <div class="mini-stack"><i title="_unmatched: 58.5%" style="width:58.5%;background:#0f766e"></i><i title="transfer_direct_debit: 7.6%" style="width:7.6%;background:#2563eb"></i><i title="transfer_bpay: 5.5%" style="width:5.5%;background:#a16207"></i><i title="cash_withdrawal: 5.4%" style="width:5.4%;background:#7c3aed"></i><i title="pos_terminal: 5.2%" style="width:5.2%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">mixed</span>
         <span class="badge">5,016,365 txns</span>
         <span class="badge">$391.6M</span>
@@ -6165,7 +6165,7 @@
         <div class="mini-stack"><i title="_unmatched: 68.7%" style="width:68.7%;background:#0f766e"></i><i title="transfer_direct_debit: 10.7%" style="width:10.7%;background:#2563eb"></i><i title="cash_withdrawal: 7.9%" style="width:7.9%;background:#a16207"></i><i title="transfer_eftpos: 4.4%" style="width:4.4%;background:#7c3aed"></i><i title="bank_anz: 2.0%" style="width:2.0%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">utilitarian</span>
         <span class="badge">3,150,620 txns</span>
         <span class="badge">$311.6M</span>
@@ -6295,7 +6295,7 @@
         <div class="mini-stack"><i title="cash_withdrawal: 54.1%" style="width:54.1%;background:#0f766e"></i><i title="_unmatched: 45.1%" style="width:45.1%;background:#2563eb"></i><i title="bank_ing: 0.5%" style="width:0.8%;background:#a16207"></i><i title="bank_nab: 0.1%" style="width:0.8%;background:#7c3aed"></i><i title="transfer_osko: 0.1%" style="width:0.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">26,533 txns</span>
         <span class="badge">$202.8M</span>
@@ -6357,7 +6357,7 @@
         <div class="mini-stack"><i title="transfer_direct_debit: 29.1%" style="width:29.1%;background:#0f766e"></i><i title="cash_withdrawal: 26.3%" style="width:26.3%;background:#2563eb"></i><i title="_unmatched: 16.6%" style="width:16.6%;background:#a16207"></i><i title="transfer_bpay: 15.9%" style="width:15.9%;background:#7c3aed"></i><i title="bank_westpac: 8.8%" style="width:8.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">151,333 txns</span>
         <span class="badge">$187.4M</span>
@@ -6454,7 +6454,7 @@
         <div class="mini-stack"><i title="_unmatched: 63.7%" style="width:63.7%;background:#0f766e"></i><i title="transfer_direct_debit: 11.6%" style="width:11.6%;background:#2563eb"></i><i title="transfer_eftpos: 5.7%" style="width:5.7%;background:#a16207"></i><i title="cash_withdrawal: 4.5%" style="width:4.5%;background:#7c3aed"></i><i title="retail_david_jones: 4.1%" style="width:4.1%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-yes">include yes</span>
+        <span class="badge include-yes">spending category</span>
         <span class="badge">hedonic</span>
         <span class="badge">1,597,084 txns</span>
         <span class="badge">$169.7M</span>
@@ -6624,7 +6624,7 @@
         <div class="mini-stack"><i title="_unmatched: 49.5%" style="width:49.5%;background:#0f766e"></i><i title="transfer_bpay: 20.6%" style="width:20.6%;background:#2563eb"></i><i title="cash_withdrawal: 18.1%" style="width:18.1%;background:#a16207"></i><i title="transfer_osko: 5.5%" style="width:5.5%;background:#7c3aed"></i><i title="transfer_internal: 2.8%" style="width:2.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">29,782 txns</span>
         <span class="badge">$46.5M</span>
@@ -6698,7 +6698,7 @@
         <div class="mini-stack"><i title="_unmatched: 91.7%" style="width:91.7%;background:#0f766e"></i><i title="cash_withdrawal: 3.8%" style="width:3.8%;background:#2563eb"></i><i title="bank_nab: 2.1%" style="width:2.1%;background:#a16207"></i><i title="bank_westpac: 0.8%" style="width:0.8%;background:#7c3aed"></i><i title="bank_macquarie: 0.7%" style="width:0.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">254,474 txns</span>
         <span class="badge">$20.2M</span>
@@ -6750,7 +6750,7 @@
         <div class="mini-stack"><i title="_unmatched: 72.2%" style="width:72.2%;background:#0f766e"></i><i title="cash_withdrawal: 19.9%" style="width:19.9%;background:#2563eb"></i><i title="transfer_bpay: 4.0%" style="width:4.0%;background:#a16207"></i><i title="bank_westpac: 2.9%" style="width:2.9%;background:#7c3aed"></i><i title="bank_cba: 0.5%" style="width:0.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">10,139 txns</span>
         <span class="badge">$11.3M</span>
@@ -6811,7 +6811,7 @@
         <div class="mini-stack"><i title="_unmatched: 100.0%" style="width:100.0%;background:#0f766e"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">138,237 txns</span>
         <span class="badge">$5.2M</span>
@@ -6847,7 +6847,7 @@
         <div class="mini-stack"><i title="_unmatched: 99.8%" style="width:99.8%;background:#0f766e"></i><i title="bank_westpac: 0.1%" style="width:0.8%;background:#2563eb"></i><i title="bank_macquarie: 0.0%" style="width:0.8%;background:#a16207"></i><i title="insurance_general: 0.0%" style="width:0.8%;background:#7c3aed"></i><i title="gym_jetts: 0.0%" style="width:0.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">3,697 txns</span>
         <span class="badge">$1.7M</span>
@@ -6890,7 +6890,7 @@
         <div class="mini-stack"><i title="cash_withdrawal: 52.7%" style="width:52.7%;background:#0f766e"></i><i title="_unmatched: 41.7%" style="width:41.7%;background:#2563eb"></i><i title="transfer_bpay: 3.6%" style="width:3.6%;background:#a16207"></i><i title="transfer_direct_debit: 0.9%" style="width:0.9%;background:#7c3aed"></i><i title="transfer_internal: 0.4%" style="width:0.8%;background:#64748b"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">1,047 txns</span>
         <span class="badge">$1.1M</span>
@@ -6950,7 +6950,7 @@
         <div class="mini-stack"><i title="_unmatched: 67.6%" style="width:67.6%;background:#0f766e"></i><i title="cash_withdrawal: 25.3%" style="width:25.3%;background:#2563eb"></i><i title="transfer_internal: 5.1%" style="width:5.1%;background:#a16207"></i><i title="transfer_eftpos: 2.0%" style="width:2.0%;background:#7c3aed"></i></div>
       </div>
       <div class="badges">
-        <span class="badge include-no">include no</span>
+        <span class="badge include-no">non-spending / audit only</span>
         <span class="badge">exclude</span>
         <span class="badge">25 txns</span>
         <span class="badge">$4.0K</span>
