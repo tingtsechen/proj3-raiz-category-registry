@@ -6,6 +6,7 @@ subcategory registry.
 ## Files
 
 - `index.html` — interactive registry viewer.
+- `fuel-excise/index.html` — interactive Fuel Excise consumption hierarchy dashboard.
 - `UNIFIED_CAT_SUBCAT_REGISTRY.pdf` — printable PDF snapshot.
 
 ## Publish

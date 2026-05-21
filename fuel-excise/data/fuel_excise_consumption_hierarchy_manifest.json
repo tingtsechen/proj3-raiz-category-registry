@@ -1,0 +1,44 @@
+{
+  "cube_path": "/Users/tingtsechen/second-brain/outputs/proj3-raiz-exploration/shock_screening/mvp_cube.parquet",
+  "output_dir": "/Users/tingtsechen/second-brain/outputs/proj3-raiz-exploration/shock_screening/stage2_fuel_excise/consumption_hierarchy",
+  "sample_min_week": "2018-01-01",
+  "sample_max_week": "2023-01-30",
+  "max_data_date": "2023-01-31",
+  "noise_tokens": [
+    "misc",
+    "unmatched",
+    "transfer",
+    "bank",
+    "atm",
+    "cash_withdrawal",
+    "cash_withdraw",
+    "pos_terminal"
+  ],
+  "lenses": {
+    "direct_fuel": "Direct fuel",
+    "mobility_transport_ex_fuel": "Mobility/transport ex-fuel",
+    "essentials_grocery_health": "Essentials: grocery/health",
+    "utilities_housing_bills": "Utilities/housing/bills",
+    "hedonic_leisure_dining": "Hedonic/leisure/dining",
+    "shopping_home_personal": "Shopping/home/personal",
+    "financial_obligations": "Financial obligations",
+    "charity_prosocial": "Charity/prosocial",
+    "education_business_pets": "Education/business/pets",
+    "reopening_foreign_pos": "Reopening/foreign POS"
+  },
+  "validations": {
+    "category_count": 26,
+    "expected_category_count": 26,
+    "lens_count": 10,
+    "expected_lens_count": 10,
+    "subcategory_clean_only": true,
+    "has_travel_hotel": true,
+    "has_travel_airline": true,
+    "has_grocery_supermarket_major": true,
+    "has_grocery_fuel_attached": true,
+    "has_home_bunnings": true,
+    "has_loans_bnpl_afterpay": true,
+    "foreign_pos_lens_rows": 108,
+    "passed": true
+  }
+}
