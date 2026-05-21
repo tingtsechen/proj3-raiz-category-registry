@@ -24,8 +24,15 @@
     "financial_obligations": "Financial obligations",
     "charity_prosocial": "Charity/prosocial",
     "education_business_pets": "Education/business/pets",
-    "reopening_foreign_pos": "Reopening/foreign POS"
+    "reopening_foreign_pos": "POS-terminal / reopening diagnostic"
   },
+  "analysis_universes": {
+    "primary_domestic": "Primary domestic",
+    "secondary_travel_cycle": "Secondary travel cycle",
+    "diagnostic_pos_terminal": "POS-terminal / reopening diagnostic",
+    "audit_noise": "Audit noise"
+  },
+  "pos_terminal_warning": "Internal *_foreign_pos labels come from Stage A pos_terminal rows matching ^XX\\s+\\w+; they are not verified country-code foreign transactions.",
   "validations": {
     "category_count": 26,
     "expected_category_count": 26,
@@ -34,11 +41,20 @@
     "subcategory_clean_only": true,
     "has_travel_hotel": true,
     "has_travel_airline": true,
+    "travel_hotel_secondary_only": true,
+    "travel_airline_secondary_only": true,
+    "primary_excludes_foreign_pos": true,
+    "foreign_pos_diagnostic_only": true,
     "has_grocery_supermarket_major": true,
     "has_grocery_fuel_attached": true,
     "has_home_bunnings": true,
     "has_loans_bnpl_afterpay": true,
     "foreign_pos_lens_rows": 108,
+    "analysis_universes": [
+      "diagnostic_pos_terminal",
+      "primary_domestic",
+      "secondary_travel_cycle"
+    ],
     "passed": true
   }
 }
