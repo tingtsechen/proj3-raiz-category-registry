@@ -7,6 +7,7 @@ subcategory registry.
 
 - `index.html` — interactive registry viewer.
 - `fuel-excise/index.html` — interactive Fuel Excise consumption hierarchy dashboard.
+- `external-shocks/index.html` — interactive hierarchy dashboard for newer external-shock screens.
 - `UNIFIED_CAT_SUBCAT_REGISTRY.pdf` — printable PDF snapshot.
 
 ## Publish
