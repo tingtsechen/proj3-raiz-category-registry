@@ -82,6 +82,7 @@
   <div class="layout">
     <aside>
       <label for="shockSelect">Research theme</label><select id="shockSelect"></select>
+      <label for="layerSelect">Outcome layer</label><select id="layerSelect"></select>
       <label for="eventSelect">Event date</label><select id="eventSelect"></select>
       <label for="windowSelect">Window</label><select id="windowSelect"></select>
       <label for="scopeSelect">Rows</label><select id="scopeSelect"></select>
@@ -114,14 +115,14 @@
       <section class="panel"><h2 class="panel-title">Existing Pack Plots</h2><div class="plots" id="plots"></div></section>
     </main>
   </div>
-  <script id="metaPayload" type="application/json">{"title": "External Shock Full Hierarchy Dashboard", "subtitle": "Full category, consumption-lens, and subcategory screens for newer Raiz external-shock candidates.", "packs": [{"id": "crypto-regulation", "shortTitle": "Crypto Regulation", "title": "Treasury Crypto Regulation Consultation", "subtitle": "Full category/lens/subcategory screen around the 2022 Treasury CASSPr consultation.", "defaultEvent": "treasury_crypto_casspr_consultation_2022", "defaultWindow": 4, "defaultScope": "relevant_only", "defaultLevel": "subcategory", "warning": "Screening-lite only. 8w/12w consultation windows cross LUNA and should not be read as clean consultation effects.", "dataHref": "data/crypto-regulation.js", "sourceLinks": [{"label": "crypto_reg_event_catalog.csv", "href": "source/crypto-regulation/crypto_reg_event_catalog.csv"}, {"label": "crypto_regulation_report.md", "href": "source/crypto-regulation/crypto_regulation_report.md"}, {"label": "crypto_reg_universe_prepost_summary.csv", "href": "source/crypto-regulation/crypto_reg_universe_prepost_summary.csv"}, {"label": "crypto_reg_subcategory_prepost_summary.csv", "href": "source/crypto-regulation/crypto_reg_subcategory_prepost_summary.csv"}, {"label": "crypto_reg_top_movers.csv", "href": "source/crypto-regulation/crypto_reg_top_movers.csv"}, {"label": "crypto_reg_taxonomy_audit.csv", "href": "source/crypto-regulation/crypto_reg_taxonomy_audit.csv"}], "plots": [{"title": "Crypto Reg Consultation 4W Bars", "href": "plots/crypto-regulation/crypto_reg_consultation_4w_bars.png"}, {"title": "Crypto Reg Wallet Share Timeseries", "href": "plots/crypto-regulation/crypto_reg_wallet_share_timeseries.png"}]}, {"id": "cyber-trust", "shortTitle": "Cyber Trust", "title": "Optus / Medibank Cyber Trust Shock", "subtitle": "Full category/lens/subcategory screen around the 2022 Optus and Medibank breach wave.", "defaultEvent": "optus_breach_public_2022", "defaultWindow": 2, "defaultScope": "relevant_only", "defaultLevel": "subcategory", "warning": "Use Optus +/-2w as the cleanest descriptive window. Wider windows blend Optus, response, and Medibank cyber-trust context.", "dataHref": "data/cyber-trust.js", "sourceLinks": [{"label": "cyber_trust_event_catalog.csv", "href": "source/cyber-trust/cyber_trust_event_catalog.csv"}, {"label": "cyber_trust_report.md", "href": "source/cyber-trust/cyber_trust_report.md"}, {"label": "cyber_trust_universe_prepost_summary.csv", "href": "source/cyber-trust/cyber_trust_universe_prepost_summary.csv"}, {"label": "cyber_trust_subcategory_prepost_summary.csv", "href": "source/cyber-trust/cyber_trust_subcategory_prepost_summary.csv"}, {"label": "cyber_trust_top_movers.csv", "href": "source/cyber-trust/cyber_trust_top_movers.csv"}, {"label": "cyber_trust_taxonomy_audit.csv", "href": "source/cyber-trust/cyber_trust_taxonomy_audit.csv"}], "plots": [{"title": "Cyber Trust Optus 4W Bars", "href": "plots/cyber-trust/cyber_trust_optus_4w_bars.png"}, {"title": "Cyber Trust Telco Timeseries", "href": "plots/cyber-trust/cyber_trust_telco_timeseries.png"}]}, {"id": "charity-donation", "shortTitle": "Charity", "title": "Charity Donation Shock Screen", "subtitle": "Full category/lens/subcategory screen around charity, giving-day, disaster, and liquidity events.", "defaultEvent": "ukraine_appeal_2022", "defaultWindow": 4, "defaultScope": "strict_charity", "defaultLevel": "subcategory", "warning": "Strict charity rows are cleaner. Broad charity-like rows may include leakage and should be treated as diagnostics.", "dataHref": "data/charity-donation.js", "sourceLinks": [{"label": "charity_shock_event_catalog.csv", "href": "source/charity-donation/charity_shock_event_catalog.csv"}, {"label": "charity_shock_descriptive_report.md", "href": "source/charity-donation/charity_shock_descriptive_report.md"}, {"label": "charity_shock_prepost_summary.csv", "href": "source/charity-donation/charity_shock_prepost_summary.csv"}, {"label": "charity_group_support.csv", "href": "source/charity-donation/charity_group_support.csv"}], "plots": [{"title": "Charity Strict Black Summer Peak 4W Diff Bars", "href": "plots/charity-donation/charity_strict_black_summer_peak_4w_diff_bars.png"}, {"title": "Charity Strict Black Summer Peak Indexed Timeseries", "href": "plots/charity-donation/charity_strict_black_summer_peak_indexed_timeseries.png"}, {"title": "Charity Strict Giving Tuesday Now 2020 4W Diff Bars", "href": "plots/charity-donation/charity_strict_giving_tuesday_now_2020_4w_diff_bars.png"}, {"title": "Charity Strict Giving Tuesday Now 2020 Indexed Timeseries", "href": "plots/charity-donation/charity_strict_giving_tuesday_now_2020_indexed_timeseries.png"}, {"title": "Charity Strict Jobkeeper Announcement 4W Diff Bars", "href": "plots/charity-donation/charity_strict_jobkeeper_announcement_4w_diff_bars.png"}, {"title": "Charity Strict Jobkeeper Announcement Indexed Timeseries", "href": "plots/charity-donation/charity_strict_jobkeeper_announcement_indexed_timeseries.png"}, {"title": "Charity Strict Participation Rate 4W Event Heatmap", "href": "plots/charity-donation/charity_strict_participation_rate_4w_event_heatmap.png"}, {"title": "Charity Strict Qld Nsw Floods Telethon 2022 4W Diff Bars", "href": "plots/charity-donation/charity_strict_qld_nsw_floods_telethon_2022_4w_diff_bars.png"}, {"title": "Charity Strict Qld Nsw Floods Telethon 2022 Indexed Timeseries", "href": "plots/charity-donation/charity_strict_qld_nsw_floods_telethon_2022_indexed_timeseries.png"}, {"title": "Charity Strict Share Of Wallet 4W Event Heatmap", "href": "plots/charity-donation/charity_strict_share_of_wallet_4w_event_heatmap.png"}, {"title": "Charity Strict Ukraine Appeal 2022 4W Diff Bars", "href": "plots/charity-donation/charity_strict_ukraine_appeal_2022_4w_diff_bars.png"}, {"title": "Charity Strict Ukraine Appeal 2022 Indexed Timeseries", "href": "plots/charity-donation/charity_strict_ukraine_appeal_2022_indexed_timeseries.png"}]}]}</script>
+  <script id="metaPayload" type="application/json">{"title": "External Shock Full Hierarchy Dashboard", "subtitle": "Full category, consumption-lens, and subcategory screens for newer Raiz external-shock candidates.", "packs": [{"id": "crypto-regulation", "shortTitle": "Crypto Regulation", "title": "Treasury Crypto Regulation Consultation", "subtitle": "Full category/lens/subcategory screen around the 2022 Treasury CASSPr consultation.", "defaultEvent": "treasury_crypto_casspr_consultation_2022", "defaultWindow": 4, "defaultScope": "relevant_only", "defaultLevel": "subcategory", "warning": "Screening-lite only. 8w/12w consultation windows cross LUNA and should not be read as clean consultation effects.", "dataHref": "data/crypto-regulation.js", "sourceLinks": [{"label": "investment_monthly_aggregate.csv", "href": "source/investment_monthly_aggregate.csv"}, {"label": "debit_investment_like_category_audit.csv", "href": "source/debit_investment_like_category_audit.csv"}, {"label": "crypto_reg_event_catalog.csv", "href": "source/crypto-regulation/crypto_reg_event_catalog.csv"}, {"label": "crypto_regulation_report.md", "href": "source/crypto-regulation/crypto_regulation_report.md"}, {"label": "crypto_reg_universe_prepost_summary.csv", "href": "source/crypto-regulation/crypto_reg_universe_prepost_summary.csv"}, {"label": "crypto_reg_subcategory_prepost_summary.csv", "href": "source/crypto-regulation/crypto_reg_subcategory_prepost_summary.csv"}, {"label": "crypto_reg_top_movers.csv", "href": "source/crypto-regulation/crypto_reg_top_movers.csv"}, {"label": "crypto_reg_taxonomy_audit.csv", "href": "source/crypto-regulation/crypto_reg_taxonomy_audit.csv"}], "plots": [{"title": "Crypto Reg Consultation 4W Bars", "href": "plots/crypto-regulation/crypto_reg_consultation_4w_bars.png"}, {"title": "Crypto Reg Wallet Share Timeseries", "href": "plots/crypto-regulation/crypto_reg_wallet_share_timeseries.png"}]}, {"id": "cyber-trust", "shortTitle": "Cyber Trust", "title": "Optus / Medibank Cyber Trust Shock", "subtitle": "Full category/lens/subcategory screen around the 2022 Optus and Medibank breach wave.", "defaultEvent": "optus_breach_public_2022", "defaultWindow": 2, "defaultScope": "relevant_only", "defaultLevel": "subcategory", "warning": "Use Optus +/-2w as the cleanest descriptive window. Wider windows blend Optus, response, and Medibank cyber-trust context.", "dataHref": "data/cyber-trust.js", "sourceLinks": [{"label": "investment_monthly_aggregate.csv", "href": "source/investment_monthly_aggregate.csv"}, {"label": "debit_investment_like_category_audit.csv", "href": "source/debit_investment_like_category_audit.csv"}, {"label": "cyber_trust_event_catalog.csv", "href": "source/cyber-trust/cyber_trust_event_catalog.csv"}, {"label": "cyber_trust_report.md", "href": "source/cyber-trust/cyber_trust_report.md"}, {"label": "cyber_trust_universe_prepost_summary.csv", "href": "source/cyber-trust/cyber_trust_universe_prepost_summary.csv"}, {"label": "cyber_trust_subcategory_prepost_summary.csv", "href": "source/cyber-trust/cyber_trust_subcategory_prepost_summary.csv"}, {"label": "cyber_trust_top_movers.csv", "href": "source/cyber-trust/cyber_trust_top_movers.csv"}, {"label": "cyber_trust_taxonomy_audit.csv", "href": "source/cyber-trust/cyber_trust_taxonomy_audit.csv"}], "plots": [{"title": "Cyber Trust Optus 4W Bars", "href": "plots/cyber-trust/cyber_trust_optus_4w_bars.png"}, {"title": "Cyber Trust Telco Timeseries", "href": "plots/cyber-trust/cyber_trust_telco_timeseries.png"}]}, {"id": "charity-donation", "shortTitle": "Charity", "title": "Charity Donation Shock Screen", "subtitle": "Full category/lens/subcategory screen around charity, giving-day, disaster, and liquidity events.", "defaultEvent": "ukraine_appeal_2022", "defaultWindow": 4, "defaultScope": "strict_charity", "defaultLevel": "subcategory", "warning": "Strict charity rows are cleaner. Broad charity-like rows may include leakage and should be treated as diagnostics.", "dataHref": "data/charity-donation.js", "sourceLinks": [{"label": "investment_monthly_aggregate.csv", "href": "source/investment_monthly_aggregate.csv"}, {"label": "debit_investment_like_category_audit.csv", "href": "source/debit_investment_like_category_audit.csv"}, {"label": "charity_shock_event_catalog.csv", "href": "source/charity-donation/charity_shock_event_catalog.csv"}, {"label": "charity_shock_descriptive_report.md", "href": "source/charity-donation/charity_shock_descriptive_report.md"}, {"label": "charity_shock_prepost_summary.csv", "href": "source/charity-donation/charity_shock_prepost_summary.csv"}, {"label": "charity_group_support.csv", "href": "source/charity-donation/charity_group_support.csv"}], "plots": [{"title": "Charity Strict Black Summer Peak 4W Diff Bars", "href": "plots/charity-donation/charity_strict_black_summer_peak_4w_diff_bars.png"}, {"title": "Charity Strict Black Summer Peak Indexed Timeseries", "href": "plots/charity-donation/charity_strict_black_summer_peak_indexed_timeseries.png"}, {"title": "Charity Strict Giving Tuesday Now 2020 4W Diff Bars", "href": "plots/charity-donation/charity_strict_giving_tuesday_now_2020_4w_diff_bars.png"}, {"title": "Charity Strict Giving Tuesday Now 2020 Indexed Timeseries", "href": "plots/charity-donation/charity_strict_giving_tuesday_now_2020_indexed_timeseries.png"}, {"title": "Charity Strict Jobkeeper Announcement 4W Diff Bars", "href": "plots/charity-donation/charity_strict_jobkeeper_announcement_4w_diff_bars.png"}, {"title": "Charity Strict Jobkeeper Announcement Indexed Timeseries", "href": "plots/charity-donation/charity_strict_jobkeeper_announcement_indexed_timeseries.png"}, {"title": "Charity Strict Participation Rate 4W Event Heatmap", "href": "plots/charity-donation/charity_strict_participation_rate_4w_event_heatmap.png"}, {"title": "Charity Strict Qld Nsw Floods Telethon 2022 4W Diff Bars", "href": "plots/charity-donation/charity_strict_qld_nsw_floods_telethon_2022_4w_diff_bars.png"}, {"title": "Charity Strict Qld Nsw Floods Telethon 2022 Indexed Timeseries", "href": "plots/charity-donation/charity_strict_qld_nsw_floods_telethon_2022_indexed_timeseries.png"}, {"title": "Charity Strict Share Of Wallet 4W Event Heatmap", "href": "plots/charity-donation/charity_strict_share_of_wallet_4w_event_heatmap.png"}, {"title": "Charity Strict Ukraine Appeal 2022 4W Diff Bars", "href": "plots/charity-donation/charity_strict_ukraine_appeal_2022_4w_diff_bars.png"}, {"title": "Charity Strict Ukraine Appeal 2022 Indexed Timeseries", "href": "plots/charity-donation/charity_strict_ukraine_appeal_2022_indexed_timeseries.png"}]}]}</script>
   <script>
     const meta = JSON.parse(document.getElementById('metaPayload').textContent);
     window.__EXTERNAL_SHOCK_PACKS = window.__EXTERNAL_SHOCK_PACKS || {};
     const packMeta = new Map(meta.packs.map(pack => [pack.id, pack]));
     const els = {
       shock: document.getElementById('shockSelect'), event: document.getElementById('eventSelect'), window: document.getElementById('windowSelect'),
-      scope: document.getElementById('scopeSelect'), level: document.getElementById('levelSelect'), metric: document.getElementById('metricSelect'),
+      layer: document.getElementById('layerSelect'), scope: document.getElementById('scopeSelect'), level: document.getElementById('levelSelect'), metric: document.getElementById('metricSelect'),
       search: document.getElementById('searchInput'), support: document.getElementById('supportOnly'), title: document.getElementById('packTitle'),
       subtitle: document.getElementById('packSubtitle'), warning: document.getElementById('packWarning'), note: document.getElementById('hierarchyNote'),
       hierarchy: document.getElementById('hierarchy'), topRows: document.getElementById('topRows'), metrics: document.getElementById('metricsGrid'),
@@ -156,6 +157,15 @@
       return pack;
     }
     function currentMetricDef() { return activePack.metrics[els.metric.value]; }
+    function isInvestmentLayer() { return els.layer.value === 'investment'; }
+    function metricItems() {
+      const metrics = isInvestmentLayer() ? activePack.investmentMetrics : activePack.metrics;
+      return Object.entries(metrics).map(([id,def])=>({id,label:def.label}));
+    }
+    function updateMetricOptions() {
+      const selected = isInvestmentLayer() ? 'diff' : 'share_of_wallet_diff';
+      setOptions(els.metric, metricItems(), selected);
+    }
     function formatValue(value, def=currentMetricDef()) {
       if(value===null || value===undefined || Number.isNaN(Number(value))) return 'NA';
       const n=Number(value);
@@ -182,10 +192,11 @@
     }
     function updateControls() {
       setOptions(els.event, activePack.eventOptions, activePack.defaultEvent);
+      setOptions(els.layer, [{id:'consumption',label:'Consumption hierarchy'}, {id:'investment',label:'Investment outcomes'}], 'consumption');
       setOptions(els.window, activePack.windows.map(w=>({id:String(w),label:`+/-${w} weeks`})), String(activePack.defaultWindow));
       setOptions(els.scope, activePack.scopes, activePack.defaultScope);
       setOptions(els.level, activePack.levels, activePack.defaultLevel);
-      setOptions(els.metric, Object.entries(activePack.metrics).map(([id,def])=>({id,label:def.label})), 'share_of_wallet_diff');
+      updateMetricOptions();
       els.search.value='';
     }
     function renderMetrics(rows) {
@@ -259,15 +270,98 @@
       els.links.innerHTML=metaPack.sourceLinks.map(link=>`<a href="${link.href}">${link.label}</a>`).join('');
       els.plots.innerHTML=metaPack.plots.map(plot=>`<article class="plot-card"><img src="${plot.href}" alt="${plot.title}"><div>${plot.title}</div></article>`).join('');
     }
+    function activeInvestmentRows() {
+      const q=els.search.value.trim().toLowerCase();
+      return (activePack.investmentRecords || []).filter(row => {
+        if(row.eventId !== els.event.value) return false;
+        if(String(row.window) !== els.window.value) return false;
+        if(els.support.checked && !row.supportOk) return false;
+        if(q) {
+          const hay = `${row.outcomeGroup} ${row.outcomeLabel} ${row.eventName}`.toLowerCase();
+          if(!hay.includes(q)) return false;
+        }
+        return true;
+      });
+    }
+    function formatInvestment(row, value) {
+      if(value===null || value===undefined || Number.isNaN(Number(value))) return 'NA';
+      const n=Number(value);
+      if(row.unitKind==='percent_point') return `${(n*100).toFixed(3)} pp`;
+      if(row.unitKind==='money') return `$${n.toLocaleString(undefined,{maximumFractionDigits:3})}`;
+      return n.toLocaleString(undefined,{maximumFractionDigits:3});
+    }
+    function investmentMetricValue(row) {
+      if(els.metric.value === 'pctChange') return row.pctChange;
+      if(els.metric.value === 'postValue') return row.postValue;
+      return row.diff;
+    }
+    function formatInvestmentMetric(row) {
+      const value = investmentMetricValue(row);
+      if(els.metric.value === 'pctChange') {
+        if(value===null || value===undefined || Number.isNaN(Number(value))) return 'NA';
+        return `${(Number(value)*100).toFixed(1)}%`;
+      }
+      return formatInvestment(row, value);
+    }
+    function renderInvestmentMetrics(rows) {
+      const values=rows.map(r=>Number(investmentMetricValue(r))).filter(Number.isFinite);
+      const pos=values.filter(v=>v>0).length, neg=values.filter(v=>v<0).length;
+      const maxRow=rows.filter(r=>Number.isFinite(Number(investmentMetricValue(r)))).reduce((best,row)=>!best || Math.abs(Number(investmentMetricValue(row)))>Math.abs(Number(investmentMetricValue(best)))?row:best, null);
+      const supported=rows.filter(r=>r.supportOk).length;
+      els.metrics.innerHTML = `
+        <div class="metric"><span>Investment outcomes</span><strong>${rows.length.toLocaleString()}</strong></div>
+        <div class="metric"><span>Supported</span><strong>${supported.toLocaleString()}</strong></div>
+        <div class="metric"><span>Positive / negative</span><strong>${pos} / ${neg}</strong></div>
+        <div class="metric"><span>Largest move</span><strong>${maxRow ? formatInvestmentMetric(maxRow) : 'NA'}</strong></div>`;
+    }
+    function investmentCard(row) {
+      return `<article class="row-card">
+        <div><h4>${row.outcomeLabel}</h4><div class="meta">
+          <div>${row.outcomeGroup}</div>
+          <div class="muted">monthly window: +/-${row.monthWindow} month(s), event month is post</div>
+          <div>pre -> post: ${formatInvestment(row,row.preValue)} -> ${formatInvestment(row,row.postValue)}</div>
+          <div>total: ${formatInvestment(row,row.preTotal)} -> ${formatInvestment(row,row.postTotal)}</div>
+          <div>months: ${row.nObsPre} / ${row.nObsPost}; active users: ${Math.round(row.preActiveUsers||0).toLocaleString()} -> ${Math.round(row.postActiveUsers||0).toLocaleString()}</div>
+        </div></div>
+        <span class="badge ${badgeClass(investmentMetricValue(row))}">${formatInvestmentMetric(row)}</span>
+      </article>`;
+    }
+    function renderInvestmentHierarchy(rows) {
+      els.hierarchy.innerHTML='';
+      if(!rows.length) { els.hierarchy.innerHTML='<p class="note">No investment rows match the current filters. Investment data ends at 2022-12, so some late/wide windows are unavailable.</p>'; return; }
+      const groups=groupBy(rows, row => row.outcomeGroup || 'Investment outcomes');
+      [...groups.entries()].forEach(([group, groupRows]) => {
+        const best=groupRows.reduce((a,b)=>Math.abs(Number(investmentMetricValue(b)||0))>Math.abs(Number(investmentMetricValue(a)||0))?b:a, groupRows[0]);
+        const details=document.createElement('details'); details.open=true;
+        details.innerHTML = `<summary><span>${group}</span><span class="badge ${badgeClass(investmentMetricValue(best))}">${groupRows.length.toLocaleString()} outcomes | max ${formatInvestmentMetric(best)}</span></summary>`;
+        const body=document.createElement('div'); body.className='group-body subgrid';
+        groupRows.slice().sort((a,b)=>Math.abs(Number(investmentMetricValue(b)||0))-Math.abs(Number(investmentMetricValue(a)||0))).forEach(row=>body.insertAdjacentHTML('beforeend', investmentCard(row)));
+        details.appendChild(body); els.hierarchy.appendChild(details);
+      });
+    }
+    function renderInvestmentTopRows(rows) {
+      const sorted=rows.filter(r=>Number.isFinite(Number(investmentMetricValue(r)))).slice().sort((a,b)=>Math.abs(Number(investmentMetricValue(b)))-Math.abs(Number(investmentMetricValue(a)))).slice(0,60);
+      els.topRows.innerHTML=sorted.map(row=>`<tr>
+        <td>${row.outcomeGroup}</td><td>Monthly investment</td><td><strong>${row.outcomeLabel}</strong><br><span class="muted">+/-${row.monthWindow} month(s); ${row.preStart} to ${row.postEndExclusive}</span></td>
+        <td class="num"><span class="badge ${badgeClass(investmentMetricValue(row))}">${formatInvestmentMetric(row)}</span></td>
+        <td class="num">${formatInvestment(row,row.preValue)}</td><td class="num">${formatInvestment(row,row.postValue)}</td><td class="num">${row.nObsPre} / ${row.nObsPost}</td></tr>`).join('');
+    }
     function render() {
       els.title.textContent=activePack.title; els.subtitle.textContent=activePack.subtitle; els.warning.textContent=activePack.warning;
-      els.note.textContent='Full recompute from mvp_cube.parquet. Default scope is relevant rows, but all clean category/lens/subcategory rows are available.';
-      const rows=activeRows(); renderMetrics(rows); renderHierarchy(rows); renderTopRows(rows); renderLinksAndPlots();
+      els.scope.disabled=isInvestmentLayer(); els.level.disabled=isInvestmentLayer();
+      if(isInvestmentLayer()) {
+        els.note.textContent='Monthly investment panel from raiz_monthly_compiled. Event month is post; +/-2w and +/-4w map to +/-1 month, +/-8w to +/-2 months, +/-12w to +/-3 months.';
+        const rows=activeInvestmentRows(); renderInvestmentMetrics(rows); renderInvestmentHierarchy(rows); renderInvestmentTopRows(rows); renderLinksAndPlots();
+      } else {
+        els.note.textContent='Full recompute from mvp_cube.parquet. Default scope is relevant rows, but all clean category/lens/subcategory rows are available.';
+        const rows=activeRows(); renderMetrics(rows); renderHierarchy(rows); renderTopRows(rows); renderLinksAndPlots();
+      }
     }
     async function switchPack(id) { activePack=await loadPack(id); updateControls(); render(); }
     setOptions(els.shock, meta.packs.map(p=>({id:p.id,label:p.shortTitle})), meta.packs[0].id);
     switchPack(els.shock.value);
     els.shock.addEventListener('change', () => switchPack(els.shock.value));
+    els.layer.addEventListener('change', () => { updateMetricOptions(); render(); });
     [els.event,els.window,els.scope,els.level,els.metric,els.search,els.support].forEach(el => { el.addEventListener('input', render); el.addEventListener('change', render); });
     document.getElementById('expandAll').addEventListener('click',()=>document.querySelectorAll('#hierarchy details').forEach(d=>d.open=true));
     document.getElementById('collapseAll').addEventListener('click',()=>document.querySelectorAll('#hierarchy details').forEach(d=>d.open=false));
