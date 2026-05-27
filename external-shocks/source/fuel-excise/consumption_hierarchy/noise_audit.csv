@@ -1,0 +1,39 @@
+cat_clean,consumption_lens,consumption_lens_label,analysis_universe,analysis_universe_label,is_clean_headline,sales,count,user_weeks,subcats,total_sales,total_count,total_user_weeks,noise_sales_share,noise_count_share,noise_user_week_share
+Other,shopping_home_personal,Shopping/home/personal,audit_noise,Audit noise,False,17859904750.32951,81723919.0,35075693.0,163.0,17859904750.32951,81723919,35075693,1.0,1.0,1.0
+Taxes,financial_obligations,Financial obligations,audit_noise,Audit noise,False,5512787989.88,2142686.0,1630320.0,99.0,5512787989.88,2142686,1630320,1.0,1.0,1.0
+Service Charges & Fees,financial_obligations,Financial obligations,audit_noise,Audit noise,False,1840411493.4599745,34639465.0,19157474.0,150.0,1840411493.4599745,34639465,19157474,1.0,1.0,1.0
+Postage & Shipping,education_business_pets,Education/business/pets,audit_noise,Audit noise,False,299919275.8100014,3083207.0,2326747.0,86.0,299919275.8100014,3083207,2326747,1.0,1.0,1.0
+Mortgage,utilities_housing_bills,Utilities/housing/bills,audit_noise,Audit noise,False,2776922074.63,2331371.0,1837046.0,94.0,2778071639.13,2333166,1838757,0.9995862005558791,0.9992306591129821,0.9990694800889949
+Pets,education_business_pets,Education/business/pets,audit_noise,Audit noise,False,398432014.769994,3444237.0,2790782.0,76.0,400187537.24999404,3491979,2834591,0.9956132504973453,0.986328096474807,0.9845448602637912
+Subscriptions & Online Services,hedonic_leisure_dining,Hedonic/leisure/dining,audit_noise,Audit noise,False,511253797.3899943,4806576.0,3796508.0,148.0,513767097.36999434,4988265,3962640,0.9951080947128266,0.9635767145490466,0.9580754244644984
+Automotive & Fuel,mobility_transport_ex_fuel,Mobility/transport ex-fuel,audit_noise,Audit noise,False,2558073364.0100684,17474398.0,11035967.0,3.0,2580993701.9900684,17622006,11166821,0.9911195684195868,0.9916236551048728,0.9882818932980121
+Rent,utilities_housing_bills,Utilities/housing/bills,audit_noise,Audit noise,False,3546660331.87,5339266.0,4649344.0,102.0,3611954315.93,5411357,4714648,0.9819228101053132,0.9866778333050287,0.986148700814992
+Clothing & Personal Care,shopping_home_personal,Shopping/home/personal,audit_noise,Audit noise,False,66418322.10999999,414398.0,231080.0,106.0,67716178.64999999,443638,255671,0.9808338780203747,0.9340904070435806,0.9038177970907925
+Services,shopping_home_personal,Shopping/home/personal,audit_noise,Audit noise,False,11070156745.12062,49273104.0,26725218.0,111.0,11313410851.810617,52613216,28732766,0.9784986057806726,0.9365157225895486,0.9301303605785812
+Personal & Family,shopping_home_personal,Shopping/home/personal,audit_noise,Audit noise,False,4332288845.800644,38638507.0,22049221.0,158.0,4460954780.850643,41531403,24536766,0.9711573101789065,0.9303443709811585,0.8986196876964144
+Charitable Giving & Gifts,charity_prosocial,Charity/prosocial,audit_noise,Audit noise,False,336400164.7199994,3972057.0,3228434.0,123.0,357041035.41999936,4547061,3750881,0.9421890800991,0.8735438121459114,0.8607135230363213
+Restaurants & Dining,hedonic_leisure_dining,Hedonic/leisure/dining,audit_noise,Audit noise,False,5534447947.561175,185316991.0,44396517.0,144.0,6037878926.141159,198771784,51995643,0.9166212200114902,0.9323103474283855,0.8538507159147931
+Loans,financial_obligations,Financial obligations,audit_noise,Audit noise,False,9420584004.700012,14331556.0,10238952.0,135.0,10336167825.069988,34162211,18185831,0.9114194123135984,0.41951488444351565,0.5630180990904402
+Healthcare & Medical,essentials_grocery_health,Essentials: grocery/health,audit_noise,Audit noise,False,2166538792.3101053,19342615.0,13413293.0,138.0,2437399067.8301005,24814559,18031945,0.888873234139238,0.7794865506173211,0.7438627946125612
+Education,education_business_pets,Education/business/pets,audit_noise,Audit noise,False,477951615.97,2574879.0,1836039.0,82.0,542420632.8100001,2873210,2066854,0.8811457143397745,0.8961680489765802,0.8883254453386644
+Utilities,utilities_housing_bills,Utilities/housing/bills,audit_noise,Audit noise,False,1733746208.1100006,8511438.0,6278615.0,111.0,2095965271.0800006,10629489,8072275,0.8271826981258343,0.8007382104633628,0.7777999386789969
+Entertainment & Recreation,hedonic_leisure_dining,Hedonic/leisure/dining,audit_noise,Audit noise,False,2961176185.1404567,34546007.0,18968940.0,151.0,3809012100.250461,61359508,35623696,0.7774131736010356,0.5630098435600234,0.5324809643558602
+Electronics & Merchandise,shopping_home_personal,Shopping/home/personal,audit_noise,Audit noise,False,4422369040.7901945,19301949.0,13035693.0,157.0,5997372813.800149,50192272,34100491,0.7373843811433867,0.38456017691329053,0.38227288281567556
+Home Improvement,shopping_home_personal,Shopping/home/personal,audit_noise,Audit noise,False,1956150443.2400038,6681203.0,4908895.0,131.0,2691721827.3999853,16009664,10857668,0.7267283057735234,0.4173231243329029,0.4521131977879596
+Office & Business,education_business_pets,Education/business/pets,audit_noise,Audit noise,False,354008453.95000005,1676515.0,1300035.0,89.0,498083912.6300003,4476696,3256347,0.7107405900358277,0.3744982907036797,0.39923110159943026
+Telecom & Internet,utilities_housing_bills,Utilities/housing/bills,audit_noise,Audit noise,False,1371403165.5399985,7651603.0,6234178.0,142.0,2372821284.7199936,18442371,15675847,0.5779631084613404,0.41489258620813996,0.39769321555639064
+Insurance,utilities_housing_bills,Utilities/housing/bills,audit_noise,Audit noise,False,1784679143.5799985,8534377.0,6754427.0,139.0,3177102388.7699976,18408634,15198376,0.561731705559206,0.4636072942728939,0.44441767988895653
+Automotive & Fuel,direct_fuel,Direct fuel,audit_noise,Audit noise,False,535187974.1500002,3052674.0,2336628.0,130.0,1454542171.6200016,25334705,17385207,0.36794256267862807,0.12049376537046712,0.13440323143693372
+Groceries,essentials_grocery_health,Essentials: grocery/health,audit_noise,Audit noise,False,2526061250.220284,49391731.0,23552681.0,123.0,7111971563.060633,150750158,65604849,0.35518438562670446,0.3276396632367045,0.35900823428463347
+Other,reopening_foreign_pos,POS-terminal / reopening diagnostic,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,7942643452.509998,191800,47744,0.0,0.0,0.0
+Travel,mobility_transport_ex_fuel,Mobility/transport ex-fuel,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,6191446316.610075,64257260,32903255,0.0,0.0,0.0
+Restaurants & Dining,reopening_foreign_pos,POS-terminal / reopening diagnostic,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,3005859750.8099995,161185,39893,0.0,0.0,0.0
+Personal & Family,reopening_foreign_pos,POS-terminal / reopening diagnostic,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,1359589314.0100002,36508,18348,0.0,0.0,0.0
+Groceries,reopening_foreign_pos,POS-terminal / reopening diagnostic,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,1171093296.5700002,58898,25313,0.0,0.0,0.0
+Travel,reopening_foreign_pos,POS-terminal / reopening diagnostic,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,806291434.1700001,40508,18773,0.0,0.0,0.0
+Groceries,hedonic_leisure_dining,Hedonic/leisure/dining,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,487895877.7599841,10563853,7272256,0.0,0.0,0.0
+Entertainment & Recreation,reopening_foreign_pos,POS-terminal / reopening diagnostic,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,453979585.3,27430,15311,0.0,0.0,0.0
+Groceries,direct_fuel,Direct fuel,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,389743859.9299962,13463481,7876537,0.0,0.0,0.0
+Healthcare & Medical,reopening_foreign_pos,POS-terminal / reopening diagnostic,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,267532379.35000002,11403,8015,0.0,0.0,0.0
+Automotive & Fuel,reopening_foreign_pos,POS-terminal / reopening diagnostic,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,185603614.28,11501,7592,0.0,0.0,0.0
+Electronics & Merchandise,reopening_foreign_pos,POS-terminal / reopening diagnostic,audit_noise,Audit noise,,0.0,0.0,0.0,0.0,184348455.96,17367,10983,0.0,0.0,0.0
